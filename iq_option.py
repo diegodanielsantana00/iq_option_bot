@@ -121,7 +121,7 @@ def job(paridade, id, prewiwer):
 
 def loop():
     for info in resultados:
-        if info['impacto'] == '2':
+        if info['impacto'] == '3':
             py_string = info['horario']
             slice_object = slice(11, -3)
             schedule.run_pending()
